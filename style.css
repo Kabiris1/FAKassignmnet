@@ -257,6 +257,24 @@ section .container .chartSec span {
   max-width: 100%;
   height: auto;
 }
+.map img {
+  width: 100%; /* set the width to 100% of the container */
+  height: auto; /* maintain aspect ratio */
+}
+.maps img {
+  width: 100%; /* set the width to 100% of the container */
+  height: auto; /* maintain aspect ratio */
+}
+@media screen and (max-width: 600px) {
+  .maps img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .map img {
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 920px) {
   .lastWrap {
     background-image: none;
