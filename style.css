@@ -282,7 +282,7 @@ section .container .chartSec span {
 }
 @media (max-width: 1020px) {
   footer {
-    padding: 40px;
+    padding: 30px;
   }
   footer .container {
     grid-template-columns: repeat(2, 1fr);
